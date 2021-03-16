@@ -28,8 +28,7 @@ class IndexController extends AbstractActionController
 
     public function indexAction()
     {
-  
-        
+      
         $article = new Album();
         $article->setName('test');
         $article->setDescription('blablablablbalb');
